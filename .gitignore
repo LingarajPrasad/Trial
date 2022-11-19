@@ -1,3 +1,4 @@
 error.txt
 *.log
 i_dont_need_this_folder/
+/i_dont_need_this_folder/
