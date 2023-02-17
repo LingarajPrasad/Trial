@@ -1,0 +1,10 @@
+step:1(in terminal)
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+step:2
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+$ tail ~/.ssh/id_ed25519.pub
+
+step:3
+paste the key in github
